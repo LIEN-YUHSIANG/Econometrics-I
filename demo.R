@@ -37,8 +37,7 @@ rm(list = ls())
  modelsummary(models,
 	gof_omit = "Log.Lik.|AIC|BIC|F|RMSE",
 	stars = TRUE,
-	notes = "Standard errors in parentheses.",
-	output = "table.docx")
+	notes = "Standard errors in parentheses.")
 
 
 
