@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.27)  29 JAN 2024 17:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.27)  29 JAN 2024 18:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -547,20 +547,47 @@ Underfull \hbox (badness 10000) in paragraph at lines 171--173
 
  []
 
-[5 <./income_table_big.png>] [6] (./Research.aux) ) 
+[5 <./income_table_big.png>] [6]
+LaTeX Font Info:    Trying to load font information for OT1+ntxtt on input line 203.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/ot1ntxtt.fd
+File: ot1ntxtt.fd 2012/04/20 v3.1
+)
+LaTeX Font Info:    Font shape `OT1/ntxtt/m/n' will be
+(Font)              scaled to size 10.0pt on input line 203.
+
+Overfull \hbox (18.42018pt too wide) in paragraph at lines 484--484
+[]                          \OT1/ntxtt/m/n/10 25000*(RINCOME == 12) ) %>% mutate(lnincome = log(income + 1))[] 
+ []
+
+
+Overfull \hbox (76.17001pt too wide) in paragraph at lines 484--484
+[]                          \OT1/ntxtt/m/n/10 25000*(INCOME == 12) ) %>% mutate(lnhouse_income = log(house_income + 1))[] 
+ []
+
+
+Overfull \hbox (175.91972pt too wide) in paragraph at lines 484--484
+[]\OT1/ntxtt/m/n/10 data <- data %>% mutate(partner_income = house_income - income) %>% mutate(lnpartner_income = log(partner_income + 1))[] 
+ []
+
+[7]
+Overfull \hbox (28.92015pt too wide) in paragraph at lines 484--484
+[]  \OT1/ntxtt/m/n/10 labs(title = "Education Distribution in Years", x = "Years of Education", y = "Density")[] 
+ []
+
+[8] [9] [10] [11] [12] (./Research.aux) ) 
 Here is how much of TeX's memory you used:
- 7919 strings out of 476025
- 121047 string characters out of 5790016
- 1857388 words of memory out of 5000000
- 28254 multiletter control sequences out of 15000+600000
- 535892 words of font info for 78 fonts, out of 8000000 for 9000
+ 7952 strings out of 476025
+ 121602 string characters out of 5790016
+ 1868388 words of memory out of 5000000
+ 28283 multiletter control sequences out of 15000+600000
+ 536168 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,6n,76p,476b,243s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/ztmr.pfb>
-Output written on Research.pdf (7 pages, 442582 bytes).
+ 71i,6n,76p,476b,273s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txtt.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/ztmr.pfb>
+Output written on Research.pdf (13 pages, 457635 bytes).
 PDF statistics:
- 131 PDF objects out of 1000 (max. 8388607)
- 79 compressed objects within 1 object stream
+ 155 PDF objects out of 1000 (max. 8388607)
+ 95 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  81 words of extra memory for PDF output out of 10000 (max. 10000000)
 

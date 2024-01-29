@@ -552,9 +552,15 @@ INPUT ./income_table_big.png
 INPUT income_table_big.png
 INPUT ./income_table_big.png
 INPUT ./income_table_big.png
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/newtx/ot1ntxtt.fd
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/newtx/ot1ntxtt.fd
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/newtx/ot1ntxtt.fd
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/newtx/ot1ntxtt.fd
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/txfonts/txtt.tfm
 INPUT Research.aux
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/txsys.pfb
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txtt.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/ztmb.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/ztmr.pfb
